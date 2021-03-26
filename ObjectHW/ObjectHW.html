@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Object HW</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+
+<body>
+
+  <form name="mainFrom" onsubmit="return false">
+
+    <fieldset id="movieInfo">
+      <legend>Please rate your movies</legend>
+
+      <label for="moviename">Name of movie</label>
+      <input name="moviename" id="moviename" placeholder="movie title" type="text" />
+
+      <label for="rating">Rating(1-5)</label>
+      <select name="ratingList" id="ratingList" size="1">
+      </select>
+
+      <input type="submit" value="Add Movie" onclick="Movie()">
+      <input type="submit" value="Show Movies" onclick=
+
+    </fieldset>
+
+    <fieldset id="movieList">
+      <h3>My Movie Ratings</h3>
+      <ul id="list"></ul>
+
+    </fieldset>
+
+  </form>
+  <script type="text/javascript" src="movie.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
